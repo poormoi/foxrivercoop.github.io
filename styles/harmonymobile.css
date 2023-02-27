@@ -1,0 +1,100 @@
+html {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 10pt;
+  font-family: "Trenda";
+}
+@font-face {
+  font-family: "Trenda";
+  src: url('fonts/Trenda_Regular.otf');
+}
+body {
+  margin: 0 auto;
+  padding: 10px;
+}
+#nav {
+  margin: 0 auto;
+  float: none;
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  font-size: 1em;
+  top: 0px;
+}
+#main {
+  margin: 0 auto;
+  float: none;
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: left;
+}
+img.nav {
+  width: 25px;
+  padding-top: 5px;
+}
+.justify {
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+  padding-inline-start: 0px;
+}
+li {
+  margin: 0 0 5px 0;
+}
+.italics {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  padding: 10px 0 10px 0;
+}
+img.review {
+  width: 100%;
+  float: none;
+  padding: 0px;
+}
+#copyright {
+  font-size: 1em;
+}
+hr {
+  border: .5px solid;
+}
+@media(prefers-color-scheme:dark){
+  body {background-color: #282c33; color: #d6d9de}
+  a {color: #67a9cf;}
+  a:hover {color: #5c95b5;}
+  hr {border-color: #E2E2E2;}
+}
+@media(prefers-color-scheme:light){
+  body {background-color: #fec842; color: #0a1351;}
+  a {color: #177DB8;}
+  a:hover {color: #0e496b;}
+  hr {border-color: #000;}
+}
+@media(prefers-color-scheme:no-preference){
+  body {background-color: #fec842; color: #0a1351;}
+  a {color: #177DB8;}
+  a:hover {color: #0e496b;}
+  hr {border-color: #000;}
+}

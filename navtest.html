@@ -1,0 +1,30 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles/navtest.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="header">
+    <a href="index.html"><img id="head-img" src="images/FRFC-logo-transparent300x300.png" alt="FRFC logo"></a>
+    <div class="topnav" id="nav">
+      <a class="button" class="active" href="index.html">Home</a>
+      <a class="button" target="_blank" href="mailto:foxrivercoop@gmail.com">Email</a>
+      <a class="button" target="_blank" href="https://www.instagram.com/foxriverfoodcoop">Instagram</a>
+      <a class="button" href="calendar.html">Calendar</a>
+      <a class="button" href="harmony.html">Harmony</a>
+      <a class="button" target="_blank" href="https://foodclub.org/foxriverfoodcoop/index">Foodclub</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("nav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+  </div>
+</body>
+</html>

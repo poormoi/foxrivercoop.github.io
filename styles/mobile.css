@@ -1,0 +1,162 @@
+/* CODED BY RIDLEY */
+html {
+  margin: 0 auto;
+  width: 100%;
+  font-family: "AppleGothic",sans-serif;
+}
+body {
+  margin: 5 auto;
+  width: 100%;
+  font-size: 12pt;
+}
+@font-face {
+  font-family: "AppleGothic",sans-serif;
+  src: url('fonts/AppleGothic.ttf');
+}
+div {
+  position:relative;
+}
+div.section {
+  margin: 0 auto;
+
+}
+div#header {
+  margin:0 auto;
+  text-align:center;
+  font-size: 12pt;
+}
+div#head-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+div#nav {
+  margin:0 auto;
+  text-align: center;
+}
+div#links {
+  margin: 0 auto;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+div.title {
+  background-color: #91a145;
+  color: white;
+  margin: 0 auto;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+div.block {
+  margin: 0 auto;
+  background-color: #d0d9a6;
+  text-align:center;
+  padding: 20px 20px 20px 20px;
+}
+#join {
+  width:50%;
+}
+div#footer {
+  background-color: #d0d9a6;
+  text-align: center;
+  font-size: 10pt;
+  margin: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
+}
+img#head-img {
+  width: 150px;
+  margin: 10px 0 0 0;
+  text-align:center;
+}
+.justify {
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.button {
+  display:block;
+  color: white;
+  text-decoration:none;
+  padding: 10px 30px 10px 30px;
+  background-color: #91a145;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  transition: 0.2s;
+  font-size: 14pt;
+}
+a.button:hover {
+  background-color: #bdc78f;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+td.button {
+
+}
+td.button:hover {
+
+}
+td.member {
+  width: 200px;
+  height: 50px;
+}
+p {
+  margin: 0 0 15 0;
+}
+h1 {
+  font-size: 18pt;
+}
+h2 {
+  font-size: 16pt;
+}
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+  padding-inline-start: 0px;
+}
+.italics {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+}
+img.review {
+  width: 300px;
+  float: right;
+  padding: 10px 0 0 10px;
+}
+iframe#calendar {
+  margin:20px 0 20px 0;
+  width: 100%;
+}
+@media(prefers-color-scheme:dark){
+  body {background-color: #F4F6EA; color: #000;}
+  a {color: #fec842;}
+  a:visited {color: #fec842;}
+  a:hover {color: #f99928;}
+  hr {border-color: #E2E2E2;}
+}
+@media(prefers-color-scheme:light){
+  body {background-color: #F4F6EA; color: #000;}
+  a {color: #7393cc;}
+  a:visited {color: #7393cc;}
+  a:hover {color: #0a1351;}
+  hr {border-color: #000;}
+}
+@media(prefers-color-scheme:no-preference){
+  body {background-color: #fec842; color: #0a1351;}
+  a {color: #7393cc;}
+  a:visited {color: #7393cc;}
+  a:hover {color: #0a1351;}
+  hr {border-color: #000;}
+}
