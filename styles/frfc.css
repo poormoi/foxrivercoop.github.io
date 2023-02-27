@@ -156,8 +156,9 @@ h2 {
 }
 ul {
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
   padding-inline-start: 30px;
+
 }
 .italics {
   font-style: italic;
@@ -261,7 +262,7 @@ iframe#calendar {
    background-color: #f44336; /* Red */
    color: white;
    margin-bottom: 15px;
-   font-size: 11pt;
+   font-size: 10pt;
   }
   div#header {
     margin: 0 auto;
@@ -289,6 +290,7 @@ iframe#calendar {
   div#main {
     margin: 0 auto;
     width: 95%;
+    font-size: 11pt;
   }
   div#links {
     margin: 0 auto;
@@ -304,7 +306,7 @@ iframe#calendar {
   div#footer {
     background-color: #85a06c;
     text-align: center;
-    font-size: 12pt;
+    font-size: 11pt;
     margin: 0 auto;
     border-radius: 0;
     width: 100%;
